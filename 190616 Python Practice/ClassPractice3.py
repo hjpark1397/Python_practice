@@ -18,4 +18,4 @@ class Employee(Person):     # 부모 클래스 Person으로부터 상속
 
     def about_me(self): # 부모 클래스 함수 재정의 (오버라이딩)
         super().about_me() # 부모 클래스 함수 사용
-        print("제 급여는", sel.salary, "원이고, 제 입사일은", self.hire_date, "입니다.")
+        print("제 급여는", self.salary, "원이고, 제 입사일은", self.hire_date, "입니다.")
